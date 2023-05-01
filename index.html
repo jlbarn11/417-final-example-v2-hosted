@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CAKE Music</title>
+	<meta name="author" content="Jessica Barnett">
+	<meta name="description" content="Cake is a rock band that became famous in the 90's and continues to be awesome.'">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- Stylesheets -->
+	<!-- Adobe Fonts (for headings) -->
+	<link rel="stylesheet" href="https://use.typekit.net/skd5hvo.css">
+	<!-- Google Fonts (for body) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	<!-- Anicons Font -->
+	<link href="https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css" rel="stylesheet">
+	<!-- Custom Styles -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- JavaScript -->
+	<script src="scripts.js" defer></script>
+</head>
+<body id="top" class="">
+	<a href="#main" id="skip">Skip to Main Content</a>
+
+	<header>
+		<div id="header-content">
+			<h1>CAKE</h1>
+			<nav aria-label="Main Navigation">
+				<div id="menuToggle">
+					<input type="checkbox" name="toggle" id="toggle">
+					<label for="toggle">
+							<span id="menuIcon">A</span>
+					</label>
+					<div id="menu">
+						<div id="menu-background">
+							<ul>
+								<li><a href="#music">Music</a></li>
+								<li><a href="#shop">Shop</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+							<button aria-label="toggle light or dark mode" id="mode-toggle">
+								<i class="fas fa-sun currentMode" id="light"></i>
+								<i class="fas fa-moon" id="dark"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<picture>
+			<source srcset="images/cakeConcert.jpg" media="(max-width: 900px)">
+			<img src="images/cakeOnStage.jpg" alt="Cake in concert with Ben Folds Five in Montana as they perform under a disco ball" id="hero" width="2000" height="801">
+		</picture>
+	</header>
+
+	<main id="main">
+
+		<section id="about">
+			<div id="about-background">
+				<div>
+					<h2>Everybody Loves CAKE</h2>
+					<section>
+						<q><span id="quote">"We heard this hip little fuzzed-out tune on the radio, and we were, like, who's this cool new band? Maybe something called Bear Antler? Then we realized it was CAKE."</span> - Rolling Stone Magazine</q>
+						<h3>Tour Dates</h3>
+						<ul>
+							<li>Maybe in 2021 at Madison Square Garden</li>
+							<li>Also in 2021 at Staples Center</li>
+							<li>Let's Pretend we can still go out</li>
+							<li>At the AZ State Fair again sometime</li>
+							<li>More places for concerts</li>
+						</ul>
+					</section>
+					<img src="images/cakeTheBand.jpg" alt="Cake the Band has four male members, three are wearing hats and one has a beard" width="800" height="559">
+				</div>
+			</div>
+		</section>
+
+		<section id="music">
+			<div id="music-background">
+				<div aria-live="polite">
+					<h2>CAKE Music</h2>
+					<section id="bSidesDisplay"  class="currentProduct">
+						<h3>B-Sides and Rarities</h3>
+						<ul class="trackList" aria-label="track list">
+							<li>War Pigs</li>
+							<li>Ruby, Don't Take Your Love to Town</li>
+							<li>Mahna Mahna</li>
+							<li>Excuse Me, I Think I've Got a Heartache</li>
+							<li>Conroy</li>
+							<li>Strangers in the Night</li>
+							<li>Subtract One Love (Multiply the Heartache)</li>
+							<li>Never Never Gonna Give You Up</li>
+							<li>Thrill</li>
+							<li>Short Skirt, Long Jacket</li>
+							<li>It's Coming Down</li>
+						</ul>
+						<img src="images/bSides.jpeg" alt="Album cover says Cake over a sketch of an older car resting on flowers" width="600" height="600">
+					</section>
+					<section id="comfortDisplay"  class="hiddenProduct">
+						<h3>Comfort Eagle</h3>
+						<ul class="trackList" aria-label="track list">
+							<li>Opera Singer</li>
+							<li>Meanwhile, Rick James...</li>
+							<li>Shadow Stabbing</li>
+							<li>Short Skirt, Long Jacket</li>
+							<li>Commissioning a Symphony in C</li>
+							<li>Arco Arena</li>
+							<li>Comfort Eagle</li>
+							<li>Long Line of Cars</li>
+							<li>Love You Madly</li>
+							<li>Pretty Pink Ribbon</li>
+							<li>World of Two</li>
+						</ul>
+						<img src="images/comfortEagle.jpg" alt="Album cover says Cake and includes a graphic of a man and woman in dressy clothes holding cocktails" width="600" height="600">
+					</section>
+					<section id="fashionDisplay"  class="hiddenProduct">
+						<h3>Fashion Nugget</h3>
+						<ul class="trackList" aria-label="track list">
+							<li>Frank Sinatra</li>
+							<li>The Distance</li>
+							<li>Friend is a Four Letter Word</li>
+							<li>Open Book</li>
+							<li>Daria</li>
+							<li>Race Car Ya-Yas</li>
+							<li>I Will Survive</li>
+							<li>Stickshifts and Safety Belts</li>
+							<li>Perhaps, Perhaps, Perhaps</li>
+							<li>It's Coming Down</li>
+							<li>Nugget</li>
+							<li>She'll Come Back to Me</li>
+							<li>Italian Leather Sofa</li>
+							<li>Sad Songs and Waltzes</li>
+						</ul>
+						<img src="images/fashionNugget.jpg" alt="Album cover says Cake and includes a graphic of a red crown. Also includes an explicit content label" width="600" height="601">
+					</section>
+					<section id="motorcadeDisplay"  class="hiddenProduct">
+						<h3>Motorcade of Generosity</h3>
+						<ul class="trackList" aria-label="track list">
+							<li>Comanche</li>
+							<li>Ruby Sees All</li>
+							<li>Up So Close</li>
+							<li>Pentagram</li>
+							<li>Jolene</li>
+							<li>Haze of Love</li>
+							<li>You Part the Waters</li>
+							<li>Is This Love?</li>
+							<li>Jesus Wrote a Blank Check</li>
+							<li>How Do You Afford Your Rocknroll Lifestyle?</li>
+							<li>I Bombed Korea</li>
+							<li>Mr. Mastodon Farm</li>
+							<li>Ain't No Good</li>
+						</ul>
+						<img src="images/motorcade-of-generosity.jpg" alt="Album cover says Cake and includes a graphic of three men playing instruments and wearing suits" width="600" height="600">
+					</section>
+					<section id="pressureDisplay"  class="hiddenProduct">
+						<h3>Pressure Chief</h3>
+						<ul class="trackList" aria-label="track list">
+							<li>Wheels</li>
+							<li>No Phone</li>
+							<li>Take It All Away</li>
+							<li>Dime</li>
+							<li>Carbon Monoxide</li>
+							<li>The Guitar Man</li>
+							<li>Waiting</li>
+							<li>Baskets</li>
+							<li>End of the Movie</li>
+							<li>Palm of Your Hand</li>
+							<li>Tougher Than It Is</li>
+						</ul>
+						<img src="images/pressure-chief.jpg" alt="Album cover says Cake and includes a graphic of two hands clasped over a globe" width="600" height="600">
+					</section>
+					<section id="showroomDisplay"  class="hiddenProduct">
+						<h3>Showroom of Compassion</h3>
+						<ul class="trackList" aria-label="track list">
+							<li>Federal Funding</li>
+							<li>Long time</li>
+							<li>Got to Move</li>
+							<li>What's Now is Now</li>
+							<li>Mustache Man (Wasted)</li>
+							<li>Teenage Pregnancy</li>
+							<li>Sick Of You</li>
+							<li>Easy to Crash</li>
+							<li>Bound Away</li>
+							<li>The Winter</li>
+							<li>Italian Guy</li>
+						</ul>
+						<img src="images/showroom-of-compassion.jpg" alt="Album cover says Cake and includes a graphic of a snarling lion"  width="600" height="600">
+					</section>
+					<section id="prolongingDisplay"  class="hiddenProduct">
+						<h3>Prolonging the Magic</h3>
+						<ul class="trackList" aria-label="track list">
+							<li>Satan is My Motor</li>
+							<li>Mexico</li>
+							<li>Never There</li>
+							<li>Guitar</li>
+							<li>You Turn the Screws</li>
+							<li>Walk On By</li>
+							<li>Sheep Go to Heaven</li>
+							<li>When You Sleep</li>
+							<li>Hem of Your Garment</li>
+							<li>Alpha Beta Parking Lot</li>
+							<li>Let Me Go</li>
+							<li>Cool Blue Reason</li>
+							<li>Where Would I Be?</li>
+						</ul>
+						<img src="images/prolongingTheMagic.jpg" alt="Album cover says Cake and has a graphic of a brown pig underneath" width="600" height="600">
+					</section>
+				</div>
+				<ul id="product-control" aria-label="choose an album name to view its cover image and track list">
+					<li>
+						<button id="b0" class="currentProductBtn">
+							B-Sides<br>and Rarities
+						</button>
+					</li>
+					<li>
+						<button id="b1" class="">
+							Comfort Eagle
+						</button>
+					</li>
+					<li>
+						<button id="b2" class="">
+							Fashion Nugget
+						</button>
+					</li>
+					<li>
+						<button id="b3" class="">
+							Motorcade<br>of Generosity
+						</button>
+					</li>
+					<li>
+						<button id="b4" class="">
+							Pressure Chief
+						</button>
+					</li>
+					<li>
+						<button id="b5" class="">Prolonging<br>the Magic</button>	
+					</li>
+					<li>
+						<button id="b6" class="">
+							Showroom of<br>Compassion
+						</button>
+					</li>
+				</ul>
+				<a href="#top" class="backToTop" aria-label="back to top of page"><i class="fas fa-angle-up"></i></a>
+			</div>
+		</section>
+
+		<section id="shop">
+			<div id="shop-background">
+				<h2 class="hidden">Cake Merch Store</h2>
+				<div>
+					<section id="shopping">
+						<h3>Shop with CAKE</h3>
+						<section id="p0">
+							<img src="images/explain-your-concerns.jpeg" alt="beige men's t-shirt that says explain your concerns in script font with the band name Cake underneath it" width="500" height="500">
+							<h4>Explain Your Concerns</h4>
+							<p>
+								<span class="label">T-Shirt</span>
+								Short-sleeve men's t-shirt with printed design
+								<span class="price">$15.00</span>
+							</p>
+							<label for="check0" id="check0Label" class="form-control">
+								<input type="checkbox" name="check0" id="check0">
+								<span>Add To Cart</span>
+							</label>
+						</section>
+						<section id="p1">
+							<img src="images/wild-cat.jpeg" alt="design shows two guitars on a red background with one cat head in front of the guitars and one behind. The cat in the front's whiskers are the guitar strings and the name cake is at the top in white" width="500" height="500">
+							<h4>Wild Cat</h4>
+							<p>
+								<span class="label">T-Shirt</span>
+								Short-sleeve men's t-shirt with printed design
+								<span class="price">$15.00</span>
+							</p>
+							<label for="check1" id="check1Label" class="form-control">
+								<input type="checkbox" name="check1" id="check1">
+								<span>Add To Cart</span>
+							</label>
+						</section>
+						<section id="p2">
+							<img src="images/speedControlChoice.png" alt="cream long sleeve unisex shirt with a blue and red design on the front. an inner red globe is wrapped in most of a circle in blue with the text speed, control, choice on top of it and the band's name underneath" width="252" height="253">
+							<h4>Speed * Control * Choice</h4>
+							<p>
+								<span class="label">T-Shirt</span>
+								Long-sleeve men's t-shirt with printed design
+								<span class="price">$18.00</span>
+							</p>
+							<label for="check2" id="check2Label" class="form-control">
+								<input type="checkbox" name="check2" id="check2">
+								<span>Add To Cart</span>
+							</label>
+						</section>
+						<section id="p3">
+							<img src="images/b-sides-and-rarities-cd.jpeg" alt="the album cover shows a graphic of a large, boxy two-door car on top of flowers and vines in a dark gray with the band's name and album title of b-sides and rarities upside down below the graphic" width="500" height="500">
+							<h4>B-Sides and Rarities</h4>
+							<p>
+								<span class="label">CD</span>
+								New CD with 11 songs and liner notes, includes favorite covers
+								<span class="price">$13.00</span>
+							</p>
+							<label for="check3" id="check3Label" class="form-control">
+								<input type="checkbox" name="check3" id="check3">
+								<span>Add To Cart</span>
+							</label>
+						</section>
+						<section id="p4">
+							<img src="images/polar-bear.png" alt="long sleeve gray t-shirt with a graphic of a white bear on the chest, standing on a small, blue ice cube that says cake on it" width="500" height="500">
+							<h4>Polar Bear</h4>
+							<p>
+								<span class="label">T-Shirt</span>
+								Long-sleeve men's t-shirt with printed design
+								<span class="price">$20.00</span>
+							</p>
+							<label for="check4" id="check4Label" class="form-control"> 
+								<input type="checkbox" name="check4" id="check4">
+								<span>Add To Cart</span>
+							</label>
+						</section>
+						<section id="p5">
+							<img src="images/postcard-pack-.jpeg" alt="close up of the graphic on a single postcard. The print is in red and blue with the name cake overlaid on a red car and cloud, with the text bound away under the car and on the side of a subway car" width="500" height="500">
+							<h4>Postcards</h4>
+							<p>
+								<span class="label">Pack of 7</span>
+								Postcards of different designs
+								<span class="price">$10.00</span>
+							</p>
+							<label for="check5" id="check5Label" class="form-control">
+								<input type="checkbox" name="check5" id="check5">
+								<span>Add To Cart</span>
+							</label>
+						</section>
+					</section>
+
+					<section id="cart" aria-live="polite">
+						<div>
+							<i class="fas fa-shopping-cart"></i>
+							<h3>Your Cart</h3>
+						</div>
+						<ul id="items">
+							<li id="cartMsg">Your Cart is Empty</li>
+						</ul>
+						<section id="cartTotal">
+							<h4 class="hidden">Cart Totals</h4>
+							<span>Sub-Total: </span>
+							<span id="subTotal">$0.00</span>
+							<span>Tax Rate: </span>
+							<span>8.5%</span>
+							<span>Shipping: </span>
+							<span>Flat $5.00</span>
+							<span>Cart Total: </span>
+							<span id="total">$0.00</span>
+							<button id="checkOut">Check Out</button>
+						</section>
+					</section>
+				</div>
+				<a href="#top" class="backToTop" aria-label="back to top of page"><i class="fas fa-angle-up"></i></a>
+			</div>
+		</section>
+
+		<section id="game">
+			<div id="game-background">
+				<div>
+					<h2>Play &amp; Win!</h2>
+					<p>We can't tour right now, but we miss our fans! Guess the number correctly, and you win a t-shirt from our store!</p>
+					<p>Enter a Number between 1 and 10 in the form. We will generate a random number. If your number matches, you win!</p>
+					<form>
+						<label for="userGuess">Enter a Number Between 1 and 10:</label>
+						<input type="text" name="userGuess" id="userGuess">
+						<button id="playGame">Take a Guess!</button>
+					</form>
+					<section id="gameDisplay" aria-live="polite">
+						<h3 class="hidden">Game Results</h3>
+						<span id="gameMsg">Play Now!</span>
+						<span id="guess"></span>
+						<span id="randomNum"></span>
+					</section>
+				</div>
+				<a href="#top" class="backToTop" aria-label="back to top of page"><i class="fas fa-angle-up"></i></a>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div id="contact-background">
+				<div>
+					<h2>Contact CAKE</h2>
+					<p>Reach out and say hello. We love to hear from our fans!</p>
+					<section id="socialLinks">
+						<h3>Find us on Social Media</h3>
+						<a href="https://twitter.com/CAKEMUSIC" aria-label="Cake on Twitter"><i class="fab fa-twitter"></i>&nbsp;@CAKEmusic</a>
+						<a href="https://www.facebook.com/cakemusic" aria-label="Cake on Facebook"><i class="fab fa-facebook-f"></i>&nbsp;@CAKEmusic</a>
+						<a href="https://store.cakemusic.com/"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;CAKE@musicglue</a>
+						<img src="images/cakePigPostcard.jpeg" alt="postcard image showing a graphic where a UFO appears to be abducting a pig" width="600" height="882">
+					</section>
+					<section id="contactForm">
+						<h3>Send Us a Message</h3>
+						<form id="contactCake" action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+							<label for="fName">Full Name (first and last): <span class="required">*</span></label>
+							<input type="text" name="fName" id="fName">
+							<span id="fNameError" class="hide">First and Last Name are required</span>
+
+							<label for="number">Phone Number: <span class="required" id="telReq">*</span></label>
+							<input type="tel" name="number" id="number">
+							<span id="telError" class="hide">Phone number is required</span>
+
+							<label for="email">Email:<span class="required" id="emailReq"></span></label>
+							<input type="email" name="email" id="email">
+							<span id="emailError" class="hide">Email is required</span>
+
+							<fieldset>
+								<legend>Preferred Method Of Contact <span class="required">*</span></legend>
+								<label for="prefPhone" class="custom-radio">
+									<input type="radio" name="contact-pref" id="prefPhone" required checked> 
+									Phone
+								</label>
+								<label for="prefEmail" class="custom-radio">
+									<input type="radio" name="contact-pref" id="prefEmail"> 
+									Email
+								</label>
+							</fieldset>
+
+							<label for="message">Your Message: <span class="required">*</span></label>
+							<textarea id="message"></textarea>
+							<span id="commentError" class="hide">Comments are required</span>
+
+							<input type="submit" name="mySubmit" id="mySubmit">
+						</form>
+					</section>
+				</div>
+				<a href="#top" class="backToTop" aria-label="back to top of page"><i class="fas fa-angle-up"></i></a>
+			</div>
+		</section>
+
+		<div id="modal-background" class="hidden">
+			<!-- Modal that will display cart info on checkout -->
+			<section id="modal1" class="hidden">
+				<button id="close-modal1" tab-index="0">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+				</button>
+				<h2>Thank you for your purchase!</h2>
+				<p id="cart-error" class="hidden">Please add items to your cart before checking out</p>
+				<ul id="cart-output">
+					<li class="modal-label" class="hidden">
+						<span class="modal-bold">Your Items:</span>
+						<ul id="cart-items">
+
+						</ul>
+					</li>
+					<li class="modal-label" class="hidden">
+						<span class="modal-bold">Your Total:</span>
+						<ul id="cart-total">
+
+						</ul>
+					</li>
+				</ul>
+				<p>Your order should arrive within 5-10 business days.</p>
+			</section>
+
+			<!-- Modal that will display information on successful form submission -->
+			<section id="modal2" class="hidden">
+				<button id="close-modal2" tab-index="0">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+				</button>
+				<h2 id="form-thanks">Thank you for your submission!</h2>
+				<ul id="form-output">
+
+				</ul>
+				<p>You can expect a response in 5-10 business days.</p>
+			</section>
+		</div>
+
+	</main>
+
+	<footer>
+		<div id="footer-background">
+			<p>Copyright &copy;<span>2021</span> Jessica Barnett</p>
+			<p>This site is for educational purposes only</p>
+		</div>
+	</footer>
+</body>
+</html>
